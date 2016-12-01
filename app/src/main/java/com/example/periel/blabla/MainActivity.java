@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -155,5 +156,12 @@ public class MainActivity extends AppCompatActivity {
             }
             return null;
         }
+    }
+
+    private void stam(){
+        int i=5;
+        int j=i+5;
+        Toast.makeText(this,i+j, Toast.LENGTH_SHORT).show();
+
     }
 }
